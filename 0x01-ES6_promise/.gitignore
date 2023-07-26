@@ -1,5 +1,17 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# js, json, vscode
+../0x00-ES6_basic/.eslintrc.js
+../0x00-ES6_basic/babel.config.js
+.eslintrc.js
+.vscode/
+babel.config.js
+package-lock.json
+package.json
+utils.js
+../package.json
+../readme.txt
+
 # compiled output
 /dist
 /tmp
