@@ -1,6 +1,7 @@
 export default class Building {
   constructor(sqft) {
     this._sqft = sqft;
+    this.evacuationWarningMessage();
   }
 
   // Getter for the 'sqft' attribute
