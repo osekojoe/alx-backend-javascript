@@ -39,5 +39,9 @@ export default class HolbertonCourse {
     } else {
       throw new TypeError('Students must be an array');
     }
+    /* eslint-disable-next-line no-plusplus */
+    for (let i = 0; i < newStudents.length; i++) {
+      if (typeof newStudents[i] !== 'string') { throw new TypeError('Students must be an array of strings'); }
+    }
   }
 }
